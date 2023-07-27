@@ -42,3 +42,7 @@ a{
     margin:0 auto;
   display:table;
 }
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
