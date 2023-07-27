@@ -22,3 +22,7 @@ p{
     text-decoration: none;
     font-size: min(17vw, 30px);
 }
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
