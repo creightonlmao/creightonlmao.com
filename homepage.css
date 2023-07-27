@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-weight: normal;
+    color: blue;
+    font-size: min(15vw, 100px);
+  }
+
+img {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.bio{
+    text-align: center;
+}
+.creditList{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+
+.hplinks{
+    color: blue;
+    display: inline-block;
+    -webkit-transform: scale(2, 1);
+    -moz-transform: scale(2, 1);
+    -o-transform: scale(2, 1);
+    transform: scale(2, 1);
+    text-decoration: none;
+    font-size: min(10vw, 30px);
+}
+
+.trashlink{
+    margin:0 auto;
+  display:table;
+}
