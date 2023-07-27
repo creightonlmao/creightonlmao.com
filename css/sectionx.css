@@ -1,0 +1,346 @@
+﻿/* 
+Theme & Template Designed By: Todd Swift
+ThemeKings --  www.themekings.net
+Sept. 2009  All Rights Reserved
+Section X Revised 02/22
+*/
+body {
+	background-image: url('../theme/headerfill.gif');
+	background-repeat: repeat-x;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	background-color: #232323;
+	font-size: .7em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: normal;
+}
+#wrapper {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 984px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+	list-style-image: none;
+	background-image: url('../theme/bodyfill.gif');
+	background-repeat: repeat-y;
+}
+.header {
+	background-image: url('../theme/header.jpg');
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 984px;
+	height: 210px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+}
+.header2 {
+	background-image: url('../theme/header-2.jpg');
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 984px;
+	height: 210px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+}
+#menu-H {
+	padding: 0px;
+	margin: 88px auto 0px auto;
+	width: 500px;
+	height: 64px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+}
+#menu-H ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+#menu-H ul li {
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	width: 125px;
+	height: 64px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	line-height: 54px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #666666;
+}
+a.hbutton, a.hbutton:link, a.hbutton:visited {
+	margin: 0px 0px 0px 0px;
+	background: url('../theme/butn-over.png') no-repeat 0 0;
+	width: 125px;
+	height: 64px;
+	display: block;
+	color: #666666;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.hbutton:hover {
+	background-position: 0px -64px;
+	color: #CCCCCC;
+	text-decoration: none;
+	font-weight: bold;
+}
+.headerflash {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 560px;
+	height: 210px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+}
+#leftcol {
+	position: relative;
+	float: left;
+	width: 220px; /* for IE5/WIN */;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 200px; /* actual value */;
+	padding: 0px;
+	margin-top: 0px;
+	height: 100%;
+	margin-left: 50px;
+	overflow: hidden;
+}
+#rightcol {
+	position: relative;
+	float: left;
+	width: 220px; /* for IE5/WIN */;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 200px; /* actual value */;
+	padding: 0px;
+	margin-top: 0px;
+	height: 100%;
+	margin-left: 15px;
+	overflow: hidden;
+}
+#centercol {
+	position: relative;
+	padding: 0px;
+	width: 454px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-left: 15px;
+}
+#footer {
+	background-image: url('../theme/footer.jpg');
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	width: 984px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+}
+#footer-notes {
+	padding: 0px;
+	margin: 54px auto 0px auto;
+	width: 320px;
+	height: 20px;
+	position: relative;
+	color: #444444;
+	text-align: center;
+	font-size: 90%;
+}
+/* Clears & Floats */
+.clearL {
+	clear: left;
+}
+.clearR {
+	clear: right;
+}
+.clearB {
+	clear: both;
+}
+.fL {
+	margin: 2px 8px 5px 2px;
+	float: left;
+	overflow: hidden;
+	width: 150px;
+	height: 100px;
+	position: relative;
+	list-style-type: none;
+}
+.fR {
+	margin: 2px 2px 5px 8px;
+	float: right;
+	overflow: hidden;
+	width: 150px;
+	height: 100px;
+	position: relative;
+	list-style-type: none;
+}
+/* Nav Box */
+.navbox {
+	padding: 0px;
+	margin: 0px;
+	width: 200px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+}
+.navhead {
+	background-image: url('../theme/navtop.jpg');
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	width: 200px;
+	height: 70px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+	color: #666666;
+	line-height: 94px;
+	font-weight: bold;
+}
+.navbody {
+	background-image: url('../theme/navfill.gif');
+	background-repeat: repeat-y;
+	padding: 0px;
+	margin: 0px;
+	width: 200px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+}
+.navinfo {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 158px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+	font-weight: normal;
+	color: #464646;
+	text-decoration: none;
+}
+.navfooter {
+	background-image: url('../theme/navbtm.gif');
+	background-repeat: no-repeat;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	width: 200px;
+	position: relative;
+	height: 35px;
+	overflow: hidden;
+	list-style-type: none;
+}
+/* Center Menu */
+.cntbox {
+	padding: 0px;
+	margin: 0px;
+	width: 454px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+}
+.cnthead {
+	background-image: url('../theme/cnttop.jpg');
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	width: 454px;
+	height: 45px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+	text-decoration: none;
+}
+.cnttitle {
+	padding: 0px;
+	margin: 24px auto 0px auto;
+	width: 300px;
+	height: 18px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+	color: #666666;
+	text-decoration: none;
+	text-transform: none;
+	text-align: center;
+	text-indent: 0px;
+	font-weight: bold;
+}
+.cntbody {
+	background-image: url('../theme/cntfill.jpg');
+	background-repeat: repeat-y;
+	padding: 0px;
+	margin: 0px;
+	width: 454px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+}
+.cntinfo {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 396px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+	color: #464646;
+	text-decoration: none;
+	text-indent: 0px;
+}
+.cntfooter {
+	background-image: url('../theme/cntbtm.jpg');
+	background-repeat: no-repeat;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	width: 454px;
+	position: relative;
+	height: 34px;
+	overflow: hidden;
+	list-style-type: none;
+}
+/* Vertical Navigation */
+.nav-menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.nav-menu li {
+	color: #464646;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	padding: 0px;
+	margin: 0px 0px 0px 24px;
+}
+.nav-menu li a {
+	line-height: 140%;
+	color: #464646;
+	text-decoration: none;
+	text-align: left;
+}
+.nav-menu li a:hover {
+	line-height: 140%;
+	color: #4D00C1;
+	text-decoration: none;
+	text-align: left;
+}
