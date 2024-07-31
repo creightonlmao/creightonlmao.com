@@ -34,6 +34,14 @@ a{
     text-decoration: none;
     font-size: min(10vw, 30px);
 }
+
+
+.listlink{
+    all: initial;
+    font-size: large;
+    text-decoration: underline;
+}
+
 .home{
     display:table;
     margin:0 auto;
