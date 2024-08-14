@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     text-align: center;
     font-weight: normal;
     color: blue;
@@ -44,8 +44,94 @@ a{
 .trashlink{
     margin:0 auto;
   display:table;
+} */
+
+.mainarea{
+    margin: auto;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+.links{
+    all: initial;
+    display: inline;
+    padding: 0 10em 0 10em;
+    
+    font-size: larger;
+}
+
+/* body{
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+.credits{
+    margin: auto;
+}
+
+.credittitle{
+    text-align: center;
+    font-weight: normal;
+    color: blue;
+    font-size: min(15vw, 100px);
+    margin-bottom: 0;
+    font-family: amandine, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.creditsubtitle{
+    text-align: center;
+    font-weight: normal;
+    color: blue;
+    font-size: min(15vw, 45px);
+    font-family: amandine, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+
+/* p{
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+    font-size: min(16vw, 25px);
+    margin-right: 15%;
+    margin-left: 15%;
+} */
+
+/* a{
+    
+} */
+
+
+.listlink{
+    all: initial;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.home{
+    display:table;
+    margin:0 auto;
+}
+
+.centeredlist{
+    display:table;
+    margin:0 auto;
+}
+
+dl{
+    font-size: larger;
 }
 
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: archetype, serif; 
+    font-style: normal;
+    font-weight: 400;
 }
