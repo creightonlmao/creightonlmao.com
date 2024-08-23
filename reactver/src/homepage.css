@@ -1,0 +1,139 @@
+/* h1 {
+    text-align: center;
+    font-weight: normal;
+    color: blue;
+    font-size: min(15vw, 100px);
+  }
+
+img {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.bio{
+    text-align: center;
+}
+.credits{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+.music{
+    text-align: center;
+}
+
+.hplinks{
+    color: blue;
+    display: inline-block;
+    -webkit-transform: scale(2, 1);
+    -moz-transform: scale(2, 1);
+    -o-transform: scale(2, 1);
+    transform: scale(2, 1);
+    text-decoration: none;
+    font-size: min(10vw, 30px);
+}
+
+.trashlink{
+    margin:0 auto;
+  display:table;
+} */
+
+.mainarea{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.links{
+    all: initial;
+    display: inline;
+    padding: 0 10em 0 10em;
+    
+    font-size: larger;
+}
+
+/* body{
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+.credits{
+    margin: auto;
+}
+
+.credittitle{
+    text-align: center;
+    font-weight: normal;
+    color: blue;
+    font-size: min(15vw, 100px);
+    margin-bottom: 0;
+    font-family: amandine, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.creditsubtitle{
+    text-align: center;
+    font-weight: normal;
+    color: blue;
+    font-size: min(15vw, 45px);
+    font-family: amandine, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+
+/* p{
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+    font-size: min(16vw, 25px);
+    margin-right: 15%;
+    margin-left: 15%;
+} */
+
+/* a{
+    
+} */
+
+.trackslist{
+    display: inline;
+}
+
+.listlink{
+    all: initial;
+    font-size: large;
+    text-decoration: underline;
+    /* text-justify: distribute; */
+    /* text-align: left; */
+}
+
+.home{
+    display:table;
+    margin:0 auto;
+}
+
+.centeredlist{
+    display:table;
+    margin:0 auto;
+}
+
+dl{
+    font-size: larger;
+}
+
+body{
+    font-family: archetype, serif; 
+    font-style: normal;
+    font-weight: 400;
+}

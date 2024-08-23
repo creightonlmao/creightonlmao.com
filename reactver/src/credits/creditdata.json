@@ -1,0 +1,105 @@
+{"credit": {
+    "mastering": [
+        {
+            "name": "You Might Chortle (Album)",
+            "link": "https://open.spotify.com/album/7cybS2n0De5EYXT7U8UDs4?si=m7U8iF7mSyOzLX2yIufAjA",
+            "artist": "Max Boonch (2023)"
+        },
+        {
+            "name": "InspirationMusic (Album)",
+            "link": "https://open.spotify.com/album/3omDKUR7Twg9iYi0F4w2Iq?si=e2CMm5iDRTSQIj6SgsnbkQ",
+            "artist": "creightonlmao (2023)"
+        },
+        {
+            "name": "gobSmacked (Single)",
+            "link": "https://open.spotify.com/album/2gCs9nnPDS79wZBFbmRgOy?si=-49Bs0UlSo2hJq2veA3bTw",
+            "artist": "creightonlmao (2023)"
+        },
+        {
+            "name": "Kingfisher Bluez Christmas 2023 (Album)",
+            "link": "https://open.spotify.com/album/5TnSWKnK5cckLB6QbOjCTV?si=AghP5HalRTCuNR8BnUjPdQ",
+            "artist": "Various Artists (2023)",
+            "tracks": [
+                {
+                    "name": "Christmas Feels Shorter",
+                    "link": "https://open.spotify.com/track/1sPQZcDvwL8IN46HqrbtmK?si=2525d9310ac9442f"
+                }
+            ]
+        },
+        {
+            "name": "SOS (Album)",
+            "link": "https://open.spotify.com/album/09yaNH3a415kITgtIUPFQB?si=e6_17p-oSaSvIC4vr-ADeQ",
+            "artist": "Cam Blake (2024)"
+        }
+    ],
+
+    "mixing": [
+        {
+            "name": "InspirationMusic (Album)",
+            "link": "https://open.spotify.com/album/3omDKUR7Twg9iYi0F4w2Iq?si=e2CMm5iDRTSQIj6SgsnbkQ",
+            "artist": "creightonlmao (2023)"
+        },
+        {
+            "name": "gobSmacked (Single)",
+            "link": "https://open.spotify.com/track/5C54YOZSqwe4maCxWKDRsk?si=087b2fa25e3d4be5",
+            "artist": "creightonlmao (2023)"
+        },
+        {
+            "name": "SOS (Album)",
+            "link": "https://open.spotify.com/album/09yaNH3a415kITgtIUPFQB?si=e6_17p-oSaSvIC4vr-ADeQ",
+            "artist": "Cam Blake (2024)",
+            "tracks": [
+                {  
+                    "name": "ANOTHER DESPERATE WORLD (CREIGHTONLMAO REMIX)",
+                    "link": "https://open.spotify.com/track/6UeVhzIauhwFfDT7Qj4eqi?si=e607663ca9934c74"
+                }
+            ]
+        },
+        {
+            "name": "TTYFUCK (Single)",
+            "link": "",
+            "artist": "TDVA (2024)"
+        }
+    ],
+
+    "producing": [
+        {
+            "name": "InspirationMusic (Album)",
+            "link": "https://open.spotify.com/album/3omDKUR7Twg9iYi0F4w2Iq?si=e2CMm5iDRTSQIj6SgsnbkQ",
+            "artist": "creightonlmao (2023)"
+        },
+        {
+            "name": "gobSmacked (Single)",
+            "link": "https://open.spotify.com/track/5C54YOZSqwe4maCxWKDRsk?si=087b2fa25e3d4be5",
+            "artist": "creightonlmao (2023)"
+        },
+        {
+            "name": "The Day Houdini Dies (Single)",
+            "link": "https://open.spotify.com/track/20sjVmfTu7iD7UFKnG4hzT?si=78c5ba00dcf548ec",
+            "artist": "Max Boonch (2023)"
+        },
+        {
+            "name": "HAPHAZARDLY (Single)",
+            "link": "https://open.spotify.com/track/4R4VWv2SL4FcYkZGqR8qnC?si=40f82ebdb6224385",
+            "artist": "TDVA (2024)"
+        },
+        {
+            "name": "SOS (Album)",
+            "link": "https://open.spotify.com/album/09yaNH3a415kITgtIUPFQB?si=e6_17p-oSaSvIC4vr-ADeQ",
+            "artist": "Cam Blake (2024)",
+            "tracks": [
+                {  
+                    "name": "ANOTHER DESPERATE WORLD (CREIGHTONLMAO REMIX)",
+                    "link": "https://open.spotify.com/track/6UeVhzIauhwFfDT7Qj4eqi?si=e607663ca9934c74"
+                }
+            ]
+        },
+        {
+            "name": "TTYFUCK (Single)",
+            "link": "",
+            "artist": "TDVA (2024)"
+        }
+    ]
+    
+    
+}}
