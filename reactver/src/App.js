@@ -19,7 +19,7 @@ function TracksList({list}) {
   const tracks = list.map((track, index) =>
     <Track link={track.link} name={track.name} comma={index + 1 != list.length} />
   )
-
+  
   return (
     <div className="trackslist">
       <dd> Tracks: {tracks}</dd>
@@ -50,7 +50,7 @@ function Credits() {
     <div id="credits" className="credits">
 
     <h1 className="credittitle"> credits </h1>
-    <div className="centeredlist">
+    <div className="centeredlist" /* everything being wrapped here is the problem, fix!! */ > 
       
       <CreditSublist category={creditdata.credit.mastering} title = "mastering"/>
       <CreditSublist category={creditdata.credit.mixing} title = "mixing"/>
@@ -78,26 +78,26 @@ function App() {
 
   function creditClick() {
     setDisplayCredits(!displayCredits);
-    if (displayCredits) { // fix the scrolling
-      sectionRef.current.scrollIntoView({behavior: "smooth", block: "start"});
-    }
+    setTimeout(() => {
+      sectionRef.current.scrollIntoView({behavior: "smooth"});
+    }, 10);
+    // if (displayCredits) { // fix the scrolling
+    //   sectionRef.current.scrollIntoView({behavior: "smooth", block: "start"});
+    // }
   }
 
-  
-
   return (
-    <div className="App" /*onMouseMove={rotateCube} /* the error is that when App runs EyeCanvas isn't rendered yet so there isn't a ref? need to call useRef after it renders*/ > 
+    <div className="App"> 
       
         <div className="mainarea">
           <Suspense fallback={<div> Loading... </div>}>
           
-            <EyeCanvas ref={eyeRef}/>
+            <EyeCanvas className="canvas" ref={eyeRef}/>
           </Suspense>
-          <br />
-          <br />
+          {/* <br /> */}
           <div className="links">
-            <a href="https://open.spotify.com/artist/3jb4tT5s9CebD3Bu5KPaTK?si=CL0iSXm2Rem9Hqvl2hII8w">music</a>
-            <button onClick={creditClick}>credits</button>
+            <a className="links" href="https://open.spotify.com/artist/3jb4tT5s9CebD3Bu5KPaTK?si=CL0iSXm2Rem9Hqvl2hII8w">MUSIC</a>
+            <button className="links" onClick={creditClick}>PORTFOLIO</button>
           </div>
 
         </div>
@@ -108,7 +108,5 @@ function App() {
     </div>
   );
 }
-
-
 
 export default App;
