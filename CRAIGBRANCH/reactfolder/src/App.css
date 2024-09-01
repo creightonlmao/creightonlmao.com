@@ -1,0 +1,49 @@
+:root {
+  --dist: 0;
+}
+
+@font-face {
+  font-family: "Canterbury";
+  src:
+    url("../fonts/Canterbury.ttf")
+}
+
+.creightonlmao{
+  color: #f0f8ff;
+  position: relative;
+  text-align: center;
+  display: block;
+  font-family: "Canterbury";
+  font-size: calc(30px + 7vw);
+  padding-top: 5%;
+}
+
+.scripture{
+  font-family: vollkorn, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: calc(8px + .5vw);
+
+  color: aliceblue;
+  position: relative;
+  padding-left: 20%;
+  padding-top: 5%;
+  line-height: 60%;
+}
+
+.canvasclass1{
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+.canvasclass2{
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
